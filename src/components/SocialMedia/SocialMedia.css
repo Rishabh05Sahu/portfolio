@@ -1,0 +1,28 @@
+.social-links-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: fixed;
+    bottom: 0vh;
+    left: 2.2vw;
+    cursor: pointer;
+}
+.socialmediaAbout{
+    filter: brightness(0) invert(1);
+}
+.social-links-container img{
+    height: 5vh;
+}
+.social-links-container hr{
+    height: 20vh;
+    border: 1px solid black;
+}
+@media(max-width:500px){
+  .social-links-container{
+    transform: scale(.8);
+    bottom: -3vh;
+  }
+ 
+}
