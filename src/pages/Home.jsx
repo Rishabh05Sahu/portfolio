@@ -32,7 +32,7 @@ const Home = () => {
       <Link style={{ textDecoration: "none" }} to="/my-skills">
         <h2 className="my-skill-link">My Skill</h2>
       </Link>
-      <a href="https://bit.ly/rishabhsahu-resume" target='_blank' rel='noopener noreferrer'>
+      <a href="https://drive.google.com/file/d/1raXNEsqMEdO_ps56fVDljuawBjAu7bYL/view" target='_blank' rel='noopener noreferrer'>
         <h2 className={`resume-link ${symbolClick ? "socialmediaAbout " : ""}`}>
           Resume
         </h2>

@@ -7,11 +7,21 @@ import noteverse from  "../assets/noteverse.png"
 import tictac from "../assets/tictactoe.png"
 import cafe from "../assets/cafe.png"
 import chai from "../assets/chai.png"
+import finexa from "../assets/finexa.png"
 
 
 const projectsData = [
   {
     id: 1,
+    name: "Finexa",
+    discription:"A simple donation web app where users can support creators by buying them a virtual chai using Razorpay.",
+    image: finexa,
+    tags:" #Next.js #Shadcn #MongoDB #Groq_Api ",
+    link: "https://finexa-alpha.vercel.app/",
+    gitlink:"https://github.com/Rishabh05Sahu/finexa"
+  },
+  {
+    id: 2,
     name: "Get me a Chai",
     discription:"A simple donation web app where users can support creators by buying them a virtual chai using Razorpay.",
     image: chai,
@@ -20,7 +30,7 @@ const projectsData = [
     gitlink:"https://github.com/Rishabh05Sahu/Get-me-chai"
   },
   {
-    id: 2,
+    id: 3,
     name: "Cafe Ordering Site",
     discription:"Crafted a notes management system that supports 40+ subjects and PYQs, simplifying academic resource access.",
     image: cafe,
@@ -29,7 +39,7 @@ const projectsData = [
     gitlink:"https://github.com/Rishabh05Sahu/cafe-ordering"
   },
   {
-    id: 3,
+    id: 4,
     name: "Note Verse",
     discription:"Crafted a notes management system that supports 40+ subjects and PYQs, simplifying academic resource access.",
     image: noteverse,
@@ -38,7 +48,7 @@ const projectsData = [
     gitlink:"https://github.com/Rishabh05Sahu/noteverse"
   },
   {
-    id: 4,
+    id: 5,
     name: "Apni Dukaan",
     discription:"Developed an e-commerce platform featuring 30+ products across 3 categories with advanced filtering capabilities.",
     image: ecomSite,
@@ -47,7 +57,7 @@ const projectsData = [
     gitlink:"https://github.com/Rishabh05Sahu/e-com-site"
   },
   {
-    id: 5,
+    id: 6,
     name: "Customizable Tic Tac Toe",
     discription:"A simple and interactive Tic Tac Toe game built with React, allowing users to play against each other with real-time updates and a smooth user interface.",
     image: tictac,
@@ -56,7 +66,7 @@ const projectsData = [
     gitlink:"https://github.com/Rishabh05Sahu/tic-tac-toe"
   },
   {
-    id: 6,
+    id: 7,
     name: "Drum Kit",
     discription:"Created an interactive drum kit using HTML, CSS, and JavaScript for an engaging musical experience.",
     image: drumKit,
@@ -65,7 +75,7 @@ const projectsData = [
     gitlink:"https://githuabh05Sahu/Drum-Kitb.com/Rish"
   },
   {
-    id: 7,
+    id: 8,
     name: "Pickup Line Generator",
     discription:"Created a fun and interactive pickup line generator using HTML, CSS, and JavaScript.",
     image: pickup,
@@ -74,7 +84,7 @@ const projectsData = [
     gitlink:"https://github.com/Rishabh05Sahu/pickup-line-generator"
   },
     {
-      id: 8,
+      id: 9,
       name: "Hotel Booking Site",
       discription:"Developed a user-friendly hotel booking website using HTML and CSS, enabling seamless reservation experiences.",
       image: hotel,
